@@ -1,0 +1,29 @@
+body {
+  background: burlywood;
+}
+
+#section-game {
+  width: 22rem;
+  margin: 15rem auto;
+}
+
+button {
+  background:  rgb(238, 55, 183);
+  color: white;
+  font-size: 1.5rem;
+  border: 1rem;
+  border-radius: 5px;
+  padding: 2rem;
+  width: 20rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: #a927f5;
+  border-color: #a927f5;
+  cursor: pointer;
+}
